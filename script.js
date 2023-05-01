@@ -10,5 +10,5 @@ var newCell2 = newRow.insertCell(1);
 
 // Set the content of the new cells
 newCell1.innerHTML = "New Cell1";
-newCell2.innerHTML = "New cell2";
+newCell2.innerHTML = "New Cell2";
 }
