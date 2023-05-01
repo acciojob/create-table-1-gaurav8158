@@ -1,8 +1,12 @@
+let n=0;
 function insert_Row() {
     //Write your code here
 	let table =document.getElementById("sampleTable");
-	table.innerHTML+=`
- <tr><td>Row1 cell1</td> 
-		<td>Row1 cell2</td></tr> 
- `
+	n=3;
+	table.innerHTML += `
+  <tr>
+    <td>Row${n} cell1</td> 
+    <td>Row${n} cell2</td>
+  </tr>
+`;
 }
